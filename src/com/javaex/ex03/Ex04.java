@@ -60,26 +60,22 @@ public class Ex04 {
 			    }
 			}
 
-			// 스트림 닫기
-			br.close();
-			bw.close();
+		// 스트림 닫기
+		br.close();
+		bw.close();
 
-			// 출력 확인
-			/*
-			for (Person p : pList) {
-			    System.out.println(p);
-			}
-			*/
-			
-			pList.add("최수진" , "010-0124-7777", "031-777-1245");
-			
-			for (Person p : pList) {
-			    System.out.println("이름: " + p.getName());  
-			    System.out.println("핸드폰: " + p.getHp());
-			    System.out.println("회사: " + p.getCompany());
-			    System.out.println("--------------------------------");
-			}
+		// 출력 확인
+		/*
+		 * for (Person p : pList) { System.out.println(p); }
+		 */
+
+		for (Person p : pList) {
+			System.out.println("이름: " + p.getName());
+			System.out.println("핸드폰: " + p.getHp());
+			System.out.println("회사: " + p.getCompany());
+			System.out.println("--------------------------------");
 		}
+	}
 
 			
 
